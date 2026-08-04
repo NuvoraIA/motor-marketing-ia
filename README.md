@@ -25,9 +25,32 @@ publicación → pauta → medición.
 
 ## Instalación
 
+**macOS / Linux** — abrí la Terminal y pegá:
+
 ```bash
-npx skills add nuvoraIA/motor-marketing-ia
+curl -fsSL https://raw.githubusercontent.com/NuvoraIA/motor-marketing-ia/main/install.sh | bash
 ```
+
+**Windows** — abrí PowerShell y pegá:
+
+```powershell
+irm https://raw.githubusercontent.com/NuvoraIA/motor-marketing-ia/main/install.ps1 | iex
+```
+
+Una sola línea instala este skill **más los tres packs complementarios** (imagen,
+video y estrategia). No necesitás Node ni nada instalado: funciona en cualquier Mac
+o Windows recién sacado de la caja. Volvé a correrla cuando quieras actualizar todo.
+
+<details>
+<summary>¿Ya usás el gestor de skills?</summary>
+
+Si tenés Node y preferís instalar solo este skill:
+
+```bash
+npx skills add NuvoraIA/motor-marketing-ia
+```
+
+</details>
 
 ### Requisitos
 
@@ -46,14 +69,6 @@ Conectá las que vayas a usar:
 
 ```bash
 claude mcp add elevenlabs -e ELEVENLABS_API_KEY=TU_CLAVE -- uvx elevenlabs-mcp
-```
-
-**Habilidades complementarias:**
-
-```bash
-npx skills add higgsfield-ai/skills
-npx skills add remotion-dev/skills
-npx skills add coreyhaines31/marketingskills
 ```
 
 > No hace falta tenerlas todas. Si alguna no está conectada, el sistema te lo dice y

@@ -69,6 +69,8 @@ no ejecutes a ciegas: corre este pipeline y confirma en los puntos marcados 🔸
 2. **Copy** — skill `copywriting` + `ad-creative` para headlines y textos. Pasa
    todo por `stop-slop` para que no suene a IA.
 3. **Imagen/creativo** — Higgsfield: foto de producto o avatar con el producto.
+   **Si el dueño tiene fotos/videos propios** (una carpeta en su compu, o adjuntos),
+   úsalos directo — pídele la ruta o el archivo, no generes de cero lo que ya existe.
 4. **Voz** (si es video/reel) — ElevenLabs con la voz de marca elegida.
 5. **Video** (si aplica) — Remotion, ensamblando imagen + voz + música.
 6. **Publicación orgánica** — Nuvora Social Planner programa el post.
