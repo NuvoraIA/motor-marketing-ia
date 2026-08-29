@@ -52,6 +52,7 @@ o resultados. Si no lo sabes, pregunta.
 | Imágenes, avatares, fotos de producto, creativos | **Higgsfield** (skills `higgsfield-*`) | `references/higgsfield.md` |
 | Voces / locución desde texto | **ElevenLabs** (MCP) | `references/elevenlabs.md` |
 | Videos de marca renderizados con código | **Remotion** (skill) | `references/remotion.md` |
+| Subtítulos cinematográficos en reels | **Sistema de captions** | `references/captions-cinematograficos.md` |
 | Publicar / programar en redes | **Nuvora Social Planner** | `references/nuvora-social.md` |
 | Estrategia, copy, CRO, email, social | **Skills de marketing** | `references/marketing-skills.md` |
 
@@ -72,7 +73,9 @@ no ejecutes a ciegas: corre este pipeline y confirma en los puntos marcados 🔸
    **Si el dueño tiene fotos/videos propios** (una carpeta en su compu, o adjuntos),
    úsalos directo — pídele la ruta o el archivo, no generes de cero lo que ya existe.
 4. **Voz** (si es video/reel) — ElevenLabs con la voz de marca elegida.
-5. **Video** (si aplica) — Remotion, ensamblando imagen + voz + música.
+5. **Video** (si aplica) — Remotion, ensamblando imagen + voz + música. Si el video
+   lleva subtítulos o texto sobre la persona, aplica
+   `references/captions-cinematograficos.md` — nunca la tira genérica de subtítulos.
 6. **Publicación orgánica** — Nuvora Social Planner programa el post.
 7. **Pauta** — Meta Ads: crea campaña → ad set (público/presupuesto) → creativo →
    anuncio. 🔸 **Siempre confirma presupuesto y público antes de activar.** Deja la
