@@ -6,7 +6,7 @@ description: >-
   Ads, imágenes/avatares de producto, voces, videos, o publicar en redes — o
   cuando pida "hazme un anuncio", "arma una campaña", "necesito un reel",
   "crea una imagen de mi producto", "publica esto", "haz una locución".
-  Orquesta Meta Ads, Higgsfield, ElevenLabs, Remotion, el Social Planner de
+  Orquesta Meta Ads, Higgsfield, ElevenLabs, HyperFrames, el Social Planner de
   Nuvora y los skills de marketing como un equipo de marketing entero.
   Instalado por Nuvora (nuvorahn.com).
 metadata:
@@ -51,13 +51,15 @@ o resultados. Si no lo sabes, pregunta.
 | Crear / leer / optimizar anuncios de Meta (FB/IG) | **MCP Meta Ads** (`ads_*`) | `references/meta-ads.md` |
 | Imágenes, avatares, fotos de producto, creativos | **Higgsfield** (skills `higgsfield-*`) | `references/higgsfield.md` |
 | Voces / locución desde texto | **ElevenLabs** (MCP) | `references/elevenlabs.md` |
-| Videos de marca renderizados con código | **Remotion** (skill) | `references/remotion.md` |
-| Subtítulos cinematográficos en reels | **Sistema de captions** | `references/captions-cinematograficos.md` |
+| Videos de marca renderizados con código | **HyperFrames** (skills) | `references/hyperframes.md` |
+| Subtítulos cinematográficos en reels | **`cinematic-caption`** (skill) | `references/captions-cinematograficos.md` |
 | Publicar / programar en redes | **Nuvora Social Planner** | `references/nuvora-social.md` |
 | Estrategia, copy, CRO, email, social | **Skills de marketing** | `references/marketing-skills.md` |
 
-> Las herramientas 1–4 se conectan como MCPs/skills. La #5 requiere el CRM de Nuvora
-> (opcional). La #6 se instala con `npx skills add coreyhaines31/marketingskills`.
+> Meta Ads y ElevenLabs se conectan como MCPs. Higgsfield, HyperFrames,
+> `cinematic-caption` y los skills de marketing ya quedaron instalados por el
+> instalador del Motor, junto con Node y FFmpeg (lo que HyperFrames necesita para
+> renderizar). El Social Planner requiere el CRM de Nuvora (opcional).
 > Si alguna no está conectada, dilo claramente y sigue con las que sí funcionan.
 
 ## Cómo trabajas — el flujo de una campaña completa
@@ -73,9 +75,11 @@ no ejecutes a ciegas: corre este pipeline y confirma en los puntos marcados 🔸
    **Si el dueño tiene fotos/videos propios** (una carpeta en su compu, o adjuntos),
    úsalos directo — pídele la ruta o el archivo, no generes de cero lo que ya existe.
 4. **Voz** (si es video/reel) — ElevenLabs con la voz de marca elegida.
-5. **Video** (si aplica) — Remotion, ensamblando imagen + voz + música. Si el video
-   lleva subtítulos o texto sobre la persona, aplica
-   `references/captions-cinematograficos.md` — nunca la tira genérica de subtítulos.
+5. **Video** (si aplica) — HyperFrames, ensamblando imagen + voz + música. Empieza
+   por el skill `hyperframes` y muestra el preview antes de renderizar. Si el video
+   lleva subtítulos o texto sobre la persona, aplica el skill `cinematic-caption`
+   (ver `references/captions-cinematograficos.md`) — nunca la tira genérica de
+   subtítulos.
 6. **Publicación orgánica** — Nuvora Social Planner programa el post.
 7. **Pauta** — Meta Ads: crea campaña → ad set (público/presupuesto) → creativo →
    anuncio. 🔸 **Siempre confirma presupuesto y público antes de activar.** Deja la

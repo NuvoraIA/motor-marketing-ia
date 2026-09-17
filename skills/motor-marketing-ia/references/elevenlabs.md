@@ -37,7 +37,7 @@ marca — cambiarla en cada video se nota y resta profesionalismo.
 1. Escribe el guion con `copywriting` + pásalo por `stop-slop`.
 2. `list_voices` → elige la voz de marca (o la que el dueño prefiera).
 3. `generate_audio` con el guion en español (voseo/tuteo según el país del cliente).
-4. Entrega el audio a **Remotion** para ensamblar con imagen/video y música.
+4. Entrega el audio a **HyperFrames** para ensamblar con imagen/video y música.
 
 ## Reglas
 - Idioma y acento correctos para el mercado del cliente (Honduras/LATAM = voseo o

@@ -15,7 +15,7 @@ Creado por [Nuvora](https://nuvorahn.com) para negocios de servicios y de produc
 | **Pauta** | Crea, lee y optimiza campañas de Facebook e Instagram | Media buyer |
 | **Imagen** | Fotos de producto y avatares con tu marca, ilimitados | Estudio + diseñador |
 | **Voz** | Locuciones en español desde texto | Locutor |
-| **Video** | Reels y anuncios renderizados con código | Editor de video |
+| **Video** | Reels y anuncios renderizados con código (HyperFrames) | Editor de video |
 | **Publicación** | Programa y publica en tus redes | Community manager |
 | **Estrategia** | Copy, ángulos, CRO, email, precios | Estratega de marketing |
 
@@ -37,9 +37,15 @@ curl -fsSL https://raw.githubusercontent.com/NuvoraIA/motor-marketing-ia/main/in
 irm https://raw.githubusercontent.com/NuvoraIA/motor-marketing-ia/main/install.ps1 | iex
 ```
 
-Una sola línea instala este skill **más los tres packs complementarios** (imagen,
-video y estrategia). No necesitás Node ni nada instalado: funciona en cualquier Mac
-o Windows recién sacado de la caja. Volvé a correrla cuando quieras actualizar todo.
+Una sola línea instala este skill **más los cuatro packs complementarios** (imagen,
+video con HyperFrames, subtítulos cinematográficos y estrategia). El mismo instalador
+deja listos **Node y FFmpeg**, que son los dos programas que hacen falta para
+renderizar video: si no los tenés, los instala solo.
+
+Funciona en cualquier Mac o Windows recién sacado de la caja. **La primera vez puede
+tardar unos minutos** (instala los programas de video y descarga todas las
+habilidades). Volvé a correr la misma línea cuando quieras actualizar: deja las
+habilidades en su última versión y saltea los programas que ya tengas.
 
 <details>
 <summary>¿Ya usás el gestor de skills?</summary>

@@ -9,7 +9,7 @@ ElevenLabs, o el dueño sube manual).
 - Programar publicaciones (imagen/video/carrusel) a Facebook, Instagram, TikTok,
   Google Business, LinkedIn desde el Social Planner de GHL.
 - Calendarizar campañas de contenido orgánico (frecuencia, mejores horas).
-- Centralizar el contenido producido por el equipo (Higgsfield + Remotion) en un
+- Centralizar el contenido producido por el equipo (Higgsfield + HyperFrames) en un
   solo lugar antes de publicar.
 
 ## Cómo se conecta

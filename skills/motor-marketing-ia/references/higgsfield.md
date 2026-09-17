@@ -36,4 +36,4 @@ npx skills add higgsfield-ai/skills
 - Carga el kit de marca (`marca.md`): colores, logo, estilo — no improvises.
 - Confirma antes de lotes grandes (consumen créditos).
 - Toda imagen que vaya a pauta debe verse como el negocio real, no stock genérico.
-- Encadena con ElevenLabs (voz) + Remotion (ensamblado) para video completo.
+- Encadena con ElevenLabs (voz) + HyperFrames (ensamblado) para video completo.
